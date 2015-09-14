@@ -1,13 +1,13 @@
 // Typography
-$base-font-family: $helvetica;
+$base-font-family: 'Lato', helvetica, arial, sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
 $base-font-size: 1em;
 
 // Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
+$base-line-height: 1.625;
+$heading-line-height: 1.333;
 
 // Other Sizes
 $base-border-radius: 3px;
@@ -38,5 +38,5 @@ $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Animations
-$base-duration: 150ms;
-$base-timing: ease;
+$base-duration: 230ms;
+$base-timing: ease-in-out;
